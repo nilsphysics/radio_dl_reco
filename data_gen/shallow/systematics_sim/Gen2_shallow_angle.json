@@ -1,0 +1,101 @@
+{
+    "_default": {},
+    "channels": {
+       "1": {
+            "adc_n_samples": 514,
+            "adc_nbits": 8,
+            "adc_noise_nbits": 5,
+            "adc_sampling_frequency": 2.4,
+            "ant_orientation_phi": 0,
+            "ant_orientation_theta": 180,
+            "ant_position_x": 3,
+            "ant_position_y": 0,
+            "ant_position_z": -3,
+            "ant_rotation_phi": 182.84490855436417,
+            "ant_rotation_theta": 90,
+            "ant_type": "createLPDA_100MHz_InfFirn",
+            "cab_length": 5,
+            "cab_time_delay": 25,
+            "cab_type": "LMR_400",
+            "channel_id": 0,
+            "noise_temperature": 300,
+            "noiseless": false,
+            "station_id": 1001
+        },
+        "2": {
+            "ant_orientation_phi": 0,
+            "ant_orientation_theta": 180,
+            "ant_position_x": 0,
+            "ant_position_y": 3,
+            "ant_position_z": -3,
+            "ant_rotation_phi": 267.97098507492143,
+            "ant_rotation_theta": 90,
+            "ant_type": "createLPDA_100MHz_InfFirn",
+            "channel_id": 1,
+            "reference_channel": 0,
+            "station_id": 1001
+        },
+        "3": {
+            "ant_orientation_phi": 0,
+            "ant_orientation_theta": 180,
+            "ant_position_x": -3,
+            "ant_position_y": 0,
+            "ant_position_z": -3,
+            "ant_rotation_phi": 4.2924892389607585,
+            "ant_rotation_theta": 90,
+            "ant_type": "createLPDA_100MHz_InfFirn",
+            "channel_id": 2,
+            "reference_channel": 0,
+            "station_id": 1001
+        },
+        "4": {
+            "adc_nbits": 8,
+            "adc_noise_nbits": 5,
+            "ant_orientation_phi": 0,
+            "ant_orientation_theta": 180,
+            "ant_position_x": 0,
+            "ant_position_y": -3,
+            "ant_position_z": -3,
+            "ant_rotation_phi": 90.21614318022189,
+            "ant_rotation_theta": 90,
+            "ant_type": "createLPDA_100MHz_InfFirn",
+            "channel_id": 3,
+            "reference_channel": 0,
+            "station_id": 1001
+        },
+        "5": {
+            "ant_comment": "shallow vpol",
+            "adc_nbits": 8,
+            "trigger_adc_nbits": 8,
+            "adc_noise_nbits": 5,
+            "trigger_adc_noise_nbits": 5,
+            "adc_sampling_frequency": 2.4,
+            "trigger_adc_sampling_frequency": 0.5,
+            "adc_n_samples": 514,
+            "ant_orientation_phi": 0.0,
+            "ant_orientation_theta": 0.0,
+            "ant_position_x": 0.0,
+            "ant_position_y": 0.0,
+            "ant_position_z": -10.0,
+            "ant_rotation_phi": 90.0,
+            "ant_rotation_theta": 90.0,
+            "ant_type": "RNOG_vpol_4inch_center_n1.73",
+            "cab_length": 10,
+            "cab_time_delay": 50,
+            "noise_temperature": 300,
+            "noiseless": false,
+            "channel_id": 4,
+            "station_id": 1001
+          }
+    },
+    "positions": {},
+    "stations": {
+        "1001": {
+            "pos_easting": 0,
+            "pos_northing": 0,
+            "pos_altitude":null,
+            "pos_site": "southpole",
+            "station_id": 1001
+        }
+    }
+}
